@@ -1,2 +1,2 @@
 # ECE120_Code
-This is lzx's code of ECE120 lab.
+lzx's codes of ECE120 lab.
