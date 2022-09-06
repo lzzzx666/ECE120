@@ -1,0 +1,14 @@
+lc3as output:
+STARTING PASS 1
+0 errors found in first pass.
+STARTING PASS 2
+0 errors found in second pass.
+
+"graded/kcharacter": 10/10
+"graded/question": 10/10
+"graded/registers": 10/10
+"graded/ycharacter": 10/10
+Proper halt: 5/5
+Functionality total: 45/45
+
+Total: 45/45

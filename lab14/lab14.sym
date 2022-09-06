@@ -1,0 +1,17 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	RESET_COLUMN      300A
+//	Firstbit          300D
+//	PRINT0            300F
+//	PRINT1            3012
+//	Eject             3014
+//	NEXTROW           3017
+//	DONE              301C
+//	Char0             301D
+//	Char1             301E
+//	Char2             301F
+//	Newline           3020
+//	FONT_DATA         3021
+

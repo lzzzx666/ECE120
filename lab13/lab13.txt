@@ -1,0 +1,22 @@
+Question 1: Describe the errors that occur when trying to assemble lab13.asm. Identify the cause of each error.
+
+line 14: No .ORIG.
+line 17: The constant X3010 in the LD instruction is outside of allowed range.
+line 19: There is one more "," in the ADD instrcution.
+line 30: The constant X300F in the LD instruction is outside of allowed range
+line 32: BRpz should be BRzp.
+line 35: The constant X3011 in the ST instruction is outside of allowed range.
+line 43: There is no .END.
+
+Question 2: For each label in the corrected code, write down the corresponding memory location. 
+
+OUTERLOOP         x3004
+INNERLOOP         x3005
+INPUT             x300E
+ZERO              x300F
+DECREMENT         x3010
+RESULT            x3011
+
+Question 3: Between using labels and explicit memory locations/offsets, which one makes the most sense, and why?
+
+I think using labels is better. By using lables, we do not need to consider PC and offsets to find out the address, which is easy to get it wrong. 
